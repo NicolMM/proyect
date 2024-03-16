@@ -5,6 +5,9 @@ import "./settings.css"
 
 import Product from "@/components/Product/Product";
 import Footer from "@/components/Footer/Footer";
+import ImageProduct from "@/components/ImageProduct/ImageProduct";
+import SwipeProduct from "@/components/SwipeProduct/SwipeProduct";
+import GoogleMap from "@/components/Maps/Maps";
 
 
 export default function Home() {
@@ -14,6 +17,9 @@ export default function Home() {
         <NavBar/>
         <Product/>
         <Footer/>
+        <ImageProduct/>
+<SwipeProduct/>
+<GoogleMap/>
 
     </>
   );

@@ -102,3 +102,21 @@
   font-size: 1.3rem;
   margin: 0 5px;
 }
+/* .swiper-button-prev  {
+  margin-top: 1rem;
+  position: relative;
+  background-color: yellow !important;
+}
+
+.swiper-button-next{
+  margin-top: 1rem;
+  position: relative;
+  background-color: yellow !important;
+}
+
+.swiper{
+  display: grid;
+  /* grid-template-columns: 1fr; */
+  /* grid-template-rows: 1fr 1fr; */
+
+/* } */ 
