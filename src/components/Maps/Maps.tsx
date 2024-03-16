@@ -3,21 +3,12 @@
 import React, { useEffect } from 'react'
 import { Loader } from '@googlemaps/js-api-loader';
 
-const containerStyle = {
-    width: '400px',
-    height: '400px'
-};
-
-const center = {
-    lat: -3.745,
-    lng: -38.523
-};
 
 export const Maps = () => {
 
 
 
-    const mapRef = React.useRef(null)
+    const mapRef = React.useRef<HTMLDivElement>(null)
     useEffect(() => {
 
 
