@@ -1,7 +1,6 @@
 "use client"; // This is a client component 👈🏽
 
 import React, { useEffect } from 'react'
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 import { Loader } from '@googlemaps/js-api-loader';
 
 const containerStyle = {
@@ -35,13 +34,13 @@ export const Maps = () => {
 
             const { Map } = await loader.importLibrary('maps')
 
-            const {Marker}= await loader.importLibrary('marker') as GoogleMap.maps.MarkerLibrary
+            const {Marker}= await loader.importLibrary('marker') 
             const position = {
                 lat: -12.112721,
                 lng: -77.012128
             }
 
-            const mapOptions: GoogleMap.maps.MapOptions = {
+            const mapOptions= {
                 center: position,
                 zoom: 17,
                 mapId: "MY_PROYECT"
