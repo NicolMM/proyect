@@ -22,37 +22,37 @@
   --text-dark: #1a1818;
   --card-gray: #f8f7f7;
   --content-experience: #dcdcdd;
-  
+
   /* Color primary 1 */
-  --primary1-hover: #b24516;
+  --primary1-hover: #2a459d;
   --primary1-100: #4B6DDA;
-  --primary1-75: #e18a65;
-  --primary1-50: #eab097;
+  --primary1-75: #2D3C6E;
+  --primary1-50: #353F58;
   --primary1-25: #f5d8cb;
   --primary1-5: #fdf7f4;
-  
+
   /* Color primary 2 */
-  --primary2-hover: #363826;
+  --primary2-hover: #bf5905;
   --primary2-100: #FF7B0F;
   --primary2-75: #7a7c69;
   --primary2-50: #a6a79a;
   --primary2-25: #d2d3cd;
   --primary2-5: #f6f6f5;
-  
+
   /* Color secondary 1 */
-  --secondary1-100: #81a1d0;
-  --secondary1-75: #a1b9dc;
+  --secondary1-100: #BEBCBC;
+  --secondary1-75: #5D6579;
   --secondary1-50: #bfcfe7;
   --secondary1-25: #dfe7f3;
   --secondary1-5: #f8fafc;
-  
+
   /* Color secondary 2 */
   --secondary2-100: #dabf96;
   --secondary2-75: #e3cfb0;
   --secondary2-50: #ecdeca;
   --secondary2-25: #f5efe4;
   --secondary2-5: #fdfcf9;
-  
+
   /* Color gray */
   --gray-100: #3c3c3b;
   --gray-70: #777776;
@@ -60,28 +60,28 @@
   --gray-40: #c6c6c0;
   --gray-20: #d8d8d8;
   --gray-5: #f5f5f5;
-  
+
   /* Color error */
   --error-100: #f13737;
   --error-75: #f56969;
   --error-50: #f89b9b;
   --error-25: #fbcdcd;
   --error-5: #fef5f5;
-  
+
   /* Color success */
   --success-100: #69bd79;
   --success-75: #8fce9b;
   --success-50: #b3ddbb;
   --success-25: #d9eedd;
   --success-5: #f7fbf8;
-  
+
   /* Color warning */
   --warning-100: #f1b13d;
   --warning-75: #f5c56e;
   --warning-50: #f7d79d;
   --warning-25: #fbebce;
   --warning-5: #fefbf5;
-  
+
   /* Color Link */
   --link-100: #6a7adc;
   --link-75: #909ce5;
@@ -98,3 +98,7 @@
   margin: 0;
 }
 
+.icon{
+  font-size: 1.3rem;
+  margin: 0 5px;
+}

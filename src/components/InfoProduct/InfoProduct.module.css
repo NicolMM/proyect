@@ -1,0 +1,20 @@
+.iconLocation {
+    color: var(--primary1-100);
+}
+
+.infoMapSecction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mapSecction {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.map {
+    text-decoration: underline;
+    cursor: pointer;
+}

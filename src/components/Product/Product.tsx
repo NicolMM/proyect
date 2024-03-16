@@ -1,7 +1,11 @@
 import React from 'react'
-import product from './product.png'
-import Image, { StaticImageData } from "next/image";
+
 import styles from './Product.module.css'
+import InfoProduct from '../InfoProduct/InfoProduct';
+import { FaCirclePlus } from "react-icons/fa6";
+import { HiCash } from "react-icons/hi";
+import Button from '@/common/Button/Button';
+import ImageProduct from '../ImageProduct/ImageProduct';
 
 
 const Product = () => {
@@ -9,28 +13,17 @@ const Product = () => {
 
         <div className={styles.container}>
             <div>
-                <Image
-                    src={product}
-                    alt="Circle Image"
-                    // layout="responsive"
-                    width={365}
-                    height={400}
-                    objectFit="cover"
-                />
+              <ImageProduct/>
             </div>
 
 
             <div>
-                <h2>PROYECTO</h2>
-                <h1>MARSANO</h1>
-                <hr></hr>
-                <p>Departamentos desde S/ 260,000</p>
-                <h3>Información  del Proyecto</h3>
-                <hr></hr>
-                <h3>Información  del Proyecto</h3>
+                <InfoProduct />
 
             </div>
             <div>
+                <FaCirclePlus />
+                <HiCash />
 
             </div>
 
