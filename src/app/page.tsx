@@ -14,9 +14,7 @@ export default function Home() {
 
       <NavBar />
       <Product />
-      
-      {/* <SwipeProduct /> */}
-      <GoogleMap />
+            <GoogleMap />
       <Footer />
 
     </>

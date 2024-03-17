@@ -44,6 +44,8 @@ export const Maps = () => {
                 map,
                 position:position
             })
+
+            console.log(mapRef)
         }
 
 

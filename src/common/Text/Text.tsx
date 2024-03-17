@@ -57,7 +57,7 @@ export interface TextProps {
     | "body"
     | "orange_50"
     | "gray"
-    | "gray_40"
+    | "gray--100"
     | "secondary2--100"
     | "secondary1--75"
     | "primary1--50"

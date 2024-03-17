@@ -2,10 +2,8 @@ import React from 'react'
 
 import styles from './Product.module.css'
 import InfoProduct from '../InfoProduct/InfoProduct';
-import { FaCirclePlus } from "react-icons/fa6";
-import { HiCash } from "react-icons/hi";
-import Button from '@/common/Button/Button';
 import ImageProduct from '../ImageProduct/ImageProduct';
+import Panel from '../Panel/Panel';
 
 
 const Product = () => {
@@ -19,10 +17,7 @@ const Product = () => {
                 <InfoProduct />
             </div>
             <div>
-                
-                <FaCirclePlus />
-                <HiCash />
-
+                <Panel />
             </div>
 
         </div>

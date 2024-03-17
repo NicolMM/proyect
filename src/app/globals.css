@@ -54,7 +54,7 @@
   --secondary2-5: #fdfcf9;
 
   /* Color gray */
-  --gray-100: #3c3c3b;
+  --gray-100: #F4F4F6;
   --gray-70: #777776;
   --gray-50: #9d9d9d;
   --gray-40: #c6c6c0;
@@ -96,6 +96,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-color: var(--white);
 }
 
 .icon{

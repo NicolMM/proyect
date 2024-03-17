@@ -1,0 +1,15 @@
+.container {
+
+}
+
+.secction {
+    background: var(--gray-100);
+}
+
+.title{
+    font-size: 20.85px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+
+
+}
