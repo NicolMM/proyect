@@ -1,3 +1,36 @@
-.container{
-    /* margin: 0 5rem 0 5rem; */
+.container {
+    margin: auto;
+    height: 480px;
+    width: 370px;
 }
+
+
+
+@media (max-width: 576px) {
+    .container {
+        margin: auto;
+        /* height: 40px; */
+        width: 300px;
+    }
+    .secctionButtons{
+        display: none !important;
+    }
+    .buttonDownload{
+    
+        margin-top: 6rem;
+        }
+}
+
+
+
+@media (max-width: 400px) {
+    .container {
+        margin: auto;
+        /* height: 40px; */
+        width: 250px;
+    }
+    /* .secctionButtons{
+        display: none;
+    } */
+}
+

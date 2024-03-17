@@ -1,0 +1,55 @@
+.container {
+    margin-top: 78px;
+    background: var(--primary1-75);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 109px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 23.79px;
+    font-family: "Rubik", sans-serif;
+    margin-right: 1.5rem;
+
+
+}
+
+
+  @media (max-width: 770px) {
+    .container {
+        height: 170px;
+        flex-direction: column;
+       
+    }
+
+    .title {
+    
+        /* margin-right: 0; */
+        margin: 0.5rem 0;
+    
+    
+    }
+    
+  }
+
+
+@media (max-width: 576px) {
+    .title {
+        /* height: 200px; */
+        font-size: 22px;
+        text-align: center;
+    
+    
+    }
+    
+
+}
+
+
+@media (max-width: 400px) {
+
+
+}

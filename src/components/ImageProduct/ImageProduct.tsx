@@ -44,7 +44,7 @@ const ImageProduct = () => {
     return (
         <>
 
-            <div style={{ width: "370px", height: "480px" }} className={styles.container}>
+            <div className={styles.container}>
                 <Swiper
                     effect={'coverflow'}
                     grabCursor={true}
@@ -73,19 +73,25 @@ const ImageProduct = () => {
                     ))}
 
 
-                    <div style={{ display: "flex", justifyContent: "end", marginRight: "6px" }}>
-                        <div  >
-                            <Button type={'secundary'} size={'large'} style={{ zIndex: "2000", marginTop: "2.5rem", }} >  <PiFileTextFill className={'icon'} />
+                    <div style={{ display: "flex", justifyContent: "end", marginRight: "6px" }} className={styles.secctionButtons}>
+                        <div
+                        // className={styles.buttonDownload} 
+                        >
+                            <Button type={'secundary'} size={'large'} style={{ zIndex: "2000", marginTop: "2.5rem", }}
+
+                            >  <PiFileTextFill className={'icon'} />
                                 ver ficha proyecto</Button>
                         </div>
 
 
-                        <div className="slider-controler" >
-                            <div className="swiper-button-prev slider-arrow" style={{ color: 'white', marginTop: "12.5rem", left: "6%" }}>
+                        <div className={`${styles["slider-controler"]}`} >
+                            <div className={"swiper-button-prev slider-arrow"} style={{
+                                color: 'white', marginTop: "12.5rem", left: "6%"
+                            }}>
                                 <Button type={'secundary'} size={'x-small'}><GrFormPrevious style={{ fontSize: "2.1rem", fontWeight: "700 !important" }} /></Button>
                             </div>
                         </div>
-                        <div className="slider-controler"  >
+                        <div className={`${styles["slider-controler"]}`}   >
                             <div className="swiper-button-next slider-arrow" style={{ color: 'transparent', marginTop: "12.5rem", left: "19%" }}>
                                 <Button type={'secundary'} size={'x-small'} ><GrFormNext />
                                 </Button>
