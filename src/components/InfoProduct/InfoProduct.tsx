@@ -16,11 +16,13 @@ import { TfiRulerAlt2 } from "react-icons/tfi";
 import { TbTriangleSquareCircleFilled } from "react-icons/tb";
 import styles from './InfoProduct.module.css'
 import { Text } from '@/common/Text/Text';
+import { MdLocalMovies } from "react-icons/md";
+
 // import Text from '../../'
 
 const InfoProduct = () => {
     return (
-        <>
+        <div className={styles.container}>
             <Text type='typography-subtitle_minor' variant='h2' color='secondary1--100'>PROYECTO</Text>
             <Text type='typography-title_major' variant='h1' color='primary1--75'>Marsano</Text>
 
@@ -37,36 +39,94 @@ const InfoProduct = () => {
             </div>
 
 
-            <hr></hr>
+            <hr className={styles.lineSolid}></hr>
 
-            <Text type='typography-subtitle_minor' variant='h2' color='primary1--75'>Departamentos desde S/ 260,000</Text>
+            <Text type='typography-subtitle_minor' variant='h4' color='primary1--75'>Departamentos desde S/ 260,000</Text>
 
-            <Text type='typography-subtitle_accordion' variant='h3' color='primary1--50'>Información  del Proyecto</Text>
+            <Text type='typography-subtitle_accordion' variant='h3' color='primary1--50' className={styles.subTitle}>Información  del Proyecto</Text>
 
-            <FaBuilding />
-            <FaBath />
-            <IoIosBed />
-            <FaRegCalendarCheck />
-            <PiFileTextFill />
-            <LiaUmbrellaBeachSolid />
-            <TfiRulerAlt2 />
-            <TbTriangleSquareCircleFilled />
-            <Text type='typography-subtitle_accordion' variant='h3' color='primary1--50'>Áreas comunes</Text>
+            <div className={styles.divSecction}>
 
-            <GrSwim />
-            <CgGym />
-            <FaBriefcase />
-            <MdGroups />
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}>< TbTriangleSquareCircleFilled className={styles.iconInfo} />Año</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>2020</Text>
+                </div>
 
-            <MdOutdoorGrill />
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}> < FaBuilding className={styles.iconInfo} />Edificio</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>Navarrete</Text>
+                </div>
 
-            <BiCycling />
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}>< FaRegCalendarCheck className={styles.iconInfo} />Pisos</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>21</Text>
+                </div>
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}><TfiRulerAlt2 className={styles.iconInfo} />Tamaño m2</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>48 m2</Text>
+                </div>
+
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}>< IoIosBed className={styles.iconInfo} />Dormitorios</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>2</Text>
+                </div>
+
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}>< FaBath className={styles.iconInfo} />Baños</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>2</Text>
+                </div>
+
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}>< PiFileTextFill className={styles.iconInfo} />Alquiler</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>Con Alquiler</Text>
+                </div>
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}><LiaUmbrellaBeachSolid className={styles.iconInfo} />Áreas comunes</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>Sí</Text>
+                </div>
+
+            </div>
+
+            <hr className={styles.lineSolid}></hr>
 
 
 
+            <Text type='typography-subtitle_accordion' variant='h3' color='primary1--50'  className={styles.subTitle}>Áreas comunes</Text>
 
-            <hr></hr>
-        </>
+            <div className={styles.divSecction}>
+
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}><GrSwim className={styles.iconInfo} />Piscina</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>Sí</Text>
+                </div>
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}>< CgGym className={styles.iconInfo} />Gym</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>Sí</Text>
+                </div>
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}><FaBriefcase className={styles.iconInfo} />Coworking</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>Sí</Text>
+                </div>
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}><MdLocalMovies className={styles.iconInfo} />Cine</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>Sí</Text>
+                </div>
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}>< MdOutdoorGrill className={styles.iconInfo} />Parillas</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>Sí</Text>
+                </div>
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}><MdGroups className={styles.iconInfo} />SUM</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>Sí</Text>
+                </div>
+                <div className={styles.iconInfoSecction}>
+                    <Text color='gray' variant='p2' className={styles.title}><BiCycling className={styles.iconInfo} />Bicicletas</Text>
+                    <Text color='primary1--50' variant='p2' className={styles.description}>Sí</Text>
+                </div>
+            </div>
+
+
+        </div>
     )
 }
 

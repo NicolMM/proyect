@@ -13,15 +13,13 @@ const Product = () => {
 
         <div className={styles.container}>
             <div>
-              {/* <ImageProduct/> */}
+                <ImageProduct />
             </div>
-
-
             <div>
                 <InfoProduct />
-
             </div>
             <div>
+                
                 <FaCirclePlus />
                 <HiCash />
 

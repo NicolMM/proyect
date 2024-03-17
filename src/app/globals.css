@@ -10,7 +10,7 @@
   --orange-50: #e2a78e;
   --selected-dropdown: #f3f2f1;
   --dark: #242424;
-  --gray: #858e9a;
+  --gray: #858B9A;
   --gray-separator: #97988b;
   --light-skin: #f8e7de;
   --footer: #333;
@@ -102,21 +102,7 @@
   font-size: 1.3rem;
   margin: 0 5px;
 }
-/* .swiper-button-prev  {
-  margin-top: 1rem;
-  position: relative;
-  background-color: yellow !important;
+
+.swiper-button-prev svg, .swiper-button-next svg{
+  width: 50%;
 }
-
-.swiper-button-next{
-  margin-top: 1rem;
-  position: relative;
-  background-color: yellow !important;
-}
-
-.swiper{
-  display: grid;
-  /* grid-template-columns: 1fr; */
-  /* grid-template-rows: 1fr 1fr; */
-
-/* } */ 

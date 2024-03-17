@@ -50,10 +50,12 @@
     flex-shrink: 0;
 }
 .x-small {
-    font-weight: 500 !important;
-    width: 6rem;
-    height: 2.25rem;
+    /* font-weight: 500 !important; */
+    width: 2.5rem;
+    height: 2.5rem;
     flex-shrink: 0;
+    font-size: 0.3rem;
+
 }
 
 .medium {

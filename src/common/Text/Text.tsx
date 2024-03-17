@@ -109,7 +109,7 @@ export const Text = ({
             );
         case "h4":
             return (
-                <h4
+                <h4 style={{fontSize:"14.8px"}}
                     className={`${type}${className ? " " + className : ""}${color ? " color_" + color : ""
                         }`}
                 // onClick={onClick}
@@ -139,13 +139,13 @@ export const Text = ({
             );
         case "p2":
             return (
-                <span style={{ fontSize: "1rem" }}
+                <p style={{ fontSize: "0.5rem",  height:"0.8rem" }}
                     className={`${type}${className ? " " + className : ""}${color ? " color_" + color : ""
                         }`}
                 // onClick={onClick}
                 >
                     {children}
-                </span>
+                </p>
             );
         default:
             return (

@@ -1,11 +1,17 @@
+.container{
+    margin: 0 3.8rem 0 3.8rem;
+}
+
 .iconLocation {
     color: var(--primary1-100);
+    margin-right: 6px;
 }
 
 .infoMapSecction {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
+    margin: 0.5rem 0 1rem 0;
 }
 
 .mapSecction {
@@ -15,6 +21,65 @@
 }
 
 .map {
+    margin-left: 2rem;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.iconInfoSecction {
+    display: flex;
+    flex-direction: column;
+    /* background: yellow; */
+    /* border: 1px black solid; */
+    height: 30px;
+    width: 98px;
+}
+
+.iconInfo {
+    color: var(--gray);
+    /* color: red; */
+    font-size: 12px;
+    /* display: flex; */
+    margin-right: 6px;
+
+}
+
+.iconInfoSecction .title {
+    font-family: "Roboto", sans-serif;
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 7.25px !important;
+    display: flex;
+    align-items: center;
+
+}
+
+.iconInfoSecction .description {
+    color: var(--gray);
+    font-family: "Roboto", sans-serif;
+    font-size: 10px !important;
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+
+}
+
+.divSecction {
+    /* background-color: rebeccapurple; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 7px;
+    /* Espacio entre columnas */
+    row-gap: 13px;
+    /* Espacio entre filas */
+
+}
+
+.lineSolid {
+
+    margin: 1.5rem 0 1.5rem;
+}
+
+.subTitle{
+    margin: 1.5rem 0 1.5rem;
 }
