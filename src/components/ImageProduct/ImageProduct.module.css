@@ -4,17 +4,25 @@
     width: 370px !important;
 }
 
+.enable{
+    display: none !important;
+}
+
 
 
 @media (max-width: 576px) {
     .container {
         margin: auto !important;
         /* height: 40px; */
-        width: 300px !important;
+        width: 350px !important;
     }
     .secctionButtons{
         display: none !important;
     }
+    .enable{
+        display: block !important;
+    }
+    
     .buttonDownload{
     
         margin-top: 6rem !important;
@@ -27,7 +35,7 @@
     .container {
         margin: auto !important;
         /* height: 40px; */
-        width: 250px !important;
+        width: 265px !important;
     }
     /* .secctionButtons{
         display: none;

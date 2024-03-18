@@ -75,7 +75,6 @@ const ImageProduct = () => {
 
                     <div style={{ display: "flex", justifyContent: "end", marginRight: "6px" }} className={styles.secctionButtons}>
                         <div
-                        // className={styles.buttonDownload} 
                         >
                             <Button type={'secundary'} size={'large'} style={{ zIndex: "2000", marginTop: "2.5rem", }}
 
@@ -101,7 +100,15 @@ const ImageProduct = () => {
                         </div>
                     </div>
 
+                    <div
+                        style={{ display: "flex", justifyContent: "center" }}
+                        className={styles.enable}
+                    >
+                        <Button type={'secundary'} size={'large'} style={{ zIndex: "2000", marginTop: "2.5rem", }}
 
+                        >  <PiFileTextFill className={'icon'} />
+                            ver ficha proyecto</Button>
+                    </div>
 
 
                 </Swiper>

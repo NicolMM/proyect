@@ -113,3 +113,11 @@
  
 
 }
+
+.reserved{
+    background-color: var(--error-200);
+    border: none !important;
+    max-width: 6rem !important;
+    height: 2rem !important;
+    color: var(--white);
+}

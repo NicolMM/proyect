@@ -3,7 +3,7 @@
   max-width: 800px;
   margin: 0 auto;
   height: 300px;
-  margin-bottom: 300px;
+  margin-bottom: 250px;
 }
 
 
@@ -98,23 +98,22 @@
 @media (max-width: 1200px) {
   .container {
       margin:  auto;
-      margin-bottom: 300px;
+      margin-bottom: 200px;
 
   }
-  /* .pagination{
-    display: none;
-  } */
+
 }
 
 @media (max-width: 992px) {
   .container {
       margin:  0px;
-      margin-bottom: 300px;
+      margin-bottom: 200px;
 
   }
-  /* .pagination{
-    display: none;
-  } */
+  .img_{
+    width: 20rem;
+
+  }
 }
 
 
@@ -124,8 +123,15 @@
   .container {
       margin:  0px 0px ;
       width: 100%;
-      margin-bottom: 300px;
+      margin-bottom: 200px;
 
+  }
+  .img_{
+    width: 18rem;
+
+  }
+  .pagination{
+    display: none !important;
   }
 
 }

@@ -6,7 +6,7 @@ interface ButtonProps {
     onClick?: any;
     // Otros props que desees incluir, por ejemplo:
     className?: string;
-    type: "primary" | "secundary" | "third" | "fourth"
+    type: "primary" | "secundary" | "third" | "fourth" | "reserved"
     style?: CSSProperties;
     size: "small" | "medium" | "large" | "xlarge" | "x-small";
     isSelected?: boolean
