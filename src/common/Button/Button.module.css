@@ -42,8 +42,8 @@
 
 .small {
     font-weight: 500 !important;
-    width: 9.125rem;
-    height: 2.25rem;
+    width: 9.5rem;
+    height: 2.5rem;
     flex-shrink: 0;
 }
 
@@ -96,5 +96,20 @@
     height: 3rem !important;
     /* border-radius: 1rem !important; */
     color: var(--gray);
+
+}
+
+.fourth {
+    background-color: var(--primary1-100);
+    border: none !important;
+    max-width: 6rem !important;
+    height: 2rem !important;
+    color: var(--white);
+
+}
+
+.fourth:hover {
+    background-color: var(--primary1-hover);
+ 
 
 }

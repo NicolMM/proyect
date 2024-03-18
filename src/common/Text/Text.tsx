@@ -139,7 +139,7 @@ export const Text = ({
             );
         case "p2":
             return (
-                <p style={{ fontSize: "0.5rem",  height:"0.8rem" }}
+                <p style={{ fontSize: "0.6rem",  height:"0.8rem" }}
                     className={`${type}${className ? " " + className : ""}${color ? " color_" + color : ""
                         }`}
                 // onClick={onClick}

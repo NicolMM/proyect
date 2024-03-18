@@ -38,7 +38,7 @@
 .iconInfo {
     color: var(--gray);
     /* color: red; */
-    font-size: 12px;
+    font-size: 12px !important;
     /* display: flex; */
     margin-right: 6px;
 
@@ -48,7 +48,7 @@
     font-family: "Roboto", sans-serif;
     color: var(--gray);
     font-weight: bold;
-    font-size: 7.25px !important;
+    font-size: 7.5px !important;
     display: flex;
     align-items: center;
 
