@@ -18,3 +18,11 @@
     font-weight: 500;
    
 }
+
+@media (max-width: 770px) {
+
+    .container{
+        margin: 1rem;
+    }
+}
+

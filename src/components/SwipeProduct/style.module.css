@@ -108,11 +108,24 @@
 
 @media (max-width: 992px) {
   .container {
-      margin:  auto;
+      margin:  0px;
       margin-bottom: 300px;
 
   }
   /* .pagination{
     display: none;
   } */
+}
+
+
+@media (max-width: 500px) {
+
+
+  .container {
+      margin:  0px 0px ;
+      width: 100%;
+      margin-bottom: 300px;
+
+  }
+
 }

@@ -8,6 +8,7 @@ import Footer from "@/components/Footer/Footer";
 import GoogleMap from "@/components/Maps/Maps";
 import Banner from "@/components/Banner/Banner";
 import SliderTypes from "@/components/SliderTypes/SliderTypes";
+import Table from "@/components/Table/Table";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Product />
       <Banner />
       <SliderTypes />
+      <Table />
       <GoogleMap />
       <Footer />
 

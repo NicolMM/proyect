@@ -77,3 +77,19 @@
     justify-content: center;
     align-items: center;
 }
+
+
+
+@media (max-width: 1200px) {
+    .secction_1, .secction_2 {
+        width: 350px;
+  
+    }
+}
+
+
+@media (max-width: 12) {
+
+
+  
+  }

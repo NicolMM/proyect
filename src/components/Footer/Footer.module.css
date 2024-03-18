@@ -47,6 +47,7 @@
     color: white;
     letter-spacing: 1px;
     margin-right: 12px;
+    text-align: center;
 
 
 }
@@ -115,4 +116,80 @@
 .secctionLogo {
     display: flex;
     justify-content: end;
+}
+
+
+@media (max-width: 970px) {
+    .secction_1 {
+        /* display: grid; */
+        grid-template-columns: 1fr;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* padding: 34px 0; */
+    }
+
+    .secction_links,
+    .secction_saveDate {
+
+        margin: auto;
+    }
+
+    .secction_links {
+        padding-bottom: 2rem;
+    }
+
+
+}
+
+
+@media (max-width: 700px) {
+
+    .secction_2 {
+        /* display: grid; */
+        grid-template-columns: 1fr;
+        /* padding: 34px 0; */
+    }
+
+    .secctionLogo {
+        justify-content: center;
+
+    }
+
+    .container {
+        padding: 0 50px;
+    }
+
+}
+
+
+@media (max-width: 570px) {
+
+
+    .titleLinks,
+    .option {
+
+        font-size: 0.8rem;
+    }
+
+    .secction_links_title {
+        padding-bottom: 1rem !important;
+
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .secction_links {
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .secction_saveDate{
+        flex-direction: column;
+    }
+
+
 }

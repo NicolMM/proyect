@@ -12,6 +12,10 @@
         grid-template-columns: 1fr 1fr;
       
     }
+    .box:nth-child(3) {
+        grid-column: span 2; /* Hacer que el tercer div ocupe 2 columnas */
+        justify-self: center; /* Centrar horizontalmente */
+      }
   }
   
   @media (max-width: 992px) {
@@ -19,4 +23,9 @@
         grid-template-columns: 1fr;
       
     }
+    .box:nth-child(3) {
+        grid-column: span 1; /* Hacer que el tercer div ocupe 2 columnas */
+        justify-self: center; /* Centrar horizontalmente */
+      }
+
   }

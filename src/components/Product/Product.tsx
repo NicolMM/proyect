@@ -10,13 +10,13 @@ const Product = () => {
     return (
 
         <div className={styles.container}>
-            <div>
+            <div className={styles.box}>
                 <ImageProduct />
             </div>
-            <div>
+            <div className={styles.box}>
                 <InfoProduct />
             </div>
-            <div>
+            <div className={styles.box}>
                 <Panel />
             </div>
 
