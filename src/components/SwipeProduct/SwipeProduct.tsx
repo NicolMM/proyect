@@ -91,7 +91,9 @@ const SwipeProduct = () => {
 
                         <div style={{
                             color: 'transparent', marginTop: "4rem",
-                        }}>
+                        }}
+                        
+                        >
 
                             <div className="swiper-pagination pagination" style={{ position: "absolute", }}></div>
 
