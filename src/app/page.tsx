@@ -8,6 +8,7 @@ import Footer from "@/components/Footer/Footer";
 import GoogleMap from "@/components/Maps/Maps";
 import Banner from "@/components/Banner/Banner";
 import SwipeProduct from "@/components/SwipeProduct/SwipeProduct";
+import SliderTypes from "@/components/SliderTypes/SliderTypes";
 
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
       <NavBar />
       <Product />
       <Banner />
-      {/* <SwipeProduct /> */}
+      <SliderTypes />
       <GoogleMap />
       <Footer />
 

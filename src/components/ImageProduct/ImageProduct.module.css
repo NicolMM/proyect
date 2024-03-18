@@ -1,23 +1,23 @@
 .container {
-    margin: auto;
-    height: 480px;
-    width: 370px;
+    margin: auto !important;
+    height: 480px !important;
+    width: 370px !important;
 }
 
 
 
 @media (max-width: 576px) {
     .container {
-        margin: auto;
+        margin: auto !important;
         /* height: 40px; */
-        width: 300px;
+        width: 300px !important;
     }
     .secctionButtons{
         display: none !important;
     }
     .buttonDownload{
     
-        margin-top: 6rem;
+        margin-top: 6rem !important;
         }
 }
 
@@ -25,9 +25,9 @@
 
 @media (max-width: 400px) {
     .container {
-        margin: auto;
+        margin: auto !important;
         /* height: 40px; */
-        width: 250px;
+        width: 250px !important;
     }
     /* .secctionButtons{
         display: none;

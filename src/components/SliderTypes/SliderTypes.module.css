@@ -1,0 +1,18 @@
+.container {
+
+    margin: 60px 270px ;
+}
+
+.title {
+    font-size: 24px !important;
+    font-family: "Rubik", sans-serif;
+    color: var(--primary2-25);
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.divTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

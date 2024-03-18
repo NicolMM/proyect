@@ -25,10 +25,6 @@
     color: var(--primary2-100);
 }
 
-.third {
-    background-color: var(--disabled);
-
-}
 
 
 .primary:hover {
@@ -91,4 +87,14 @@
 
     color: #ffffff;
     background-color: #D76331;
+}
+
+.third {
+    background-color: white;
+    border: none !important;
+    max-width: 3rem !important;
+    height: 3rem !important;
+    /* border-radius: 1rem !important; */
+    color: var(--gray);
+
 }

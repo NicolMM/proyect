@@ -36,7 +36,7 @@
   --primary2-100: #FF7B0F;
   --primary2-75: #7a7c69;
   --primary2-50: #a6a79a;
-  --primary2-25: #d2d3cd;
+  --primary2-25: #464A53;
   --primary2-5: #f6f6f5;
 
   /* Color secondary 1 */
@@ -99,11 +99,18 @@
   /* width: 100vw; */
 }
 
-.icon{
+.icon {
   font-size: 1.3rem;
   margin: 0 5px;
 }
 
-.swiper-button-prev svg, .swiper-button-next svg{
+.swiper-button-prev svg,
+.swiper-button-next svg {
   width: 50%;
+}
+
+.swiper-pagination-bullet-active {
+
+
+  background-color: var(--black);
 }

@@ -7,16 +7,22 @@ import image3 from './image3.png'
 import image4 from './image4.png'
 import image5 from './image5.png'
 import image6 from './image6.png'
+import { GrFormNextLink, GrLinkNext } from "react-icons/gr";
+import { GrLinkPrevious } from "react-icons/gr";
+
+
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import { SwiperSlide } from "swiper/react";
 import { Swiper, useSwiper } from 'swiper/react';
 
 import Image, { StaticImageData } from "next/image";
-import "./SwipeProduct.css"
+
+import styles from './style.module.css'
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import Button from '@/common/Button/Button';
 const SwipeProduct = () => {
     const images = [
         // { src: im, alt: 'First' },
@@ -33,65 +39,19 @@ const SwipeProduct = () => {
 
     return (
         <>
-            {/* <Image
-            src={product}
-            alt="Circle Image"
-            // layout="responsive"
-            width={365}
-            height={400}
-            objectFit="cover"
-        /> */}
-       
-            {/* <section className='py-12'>
-                <div style={{ width: "400px" }}>
 
-                    <button onClick={() => swiper.slideNext()}>Slide to the next slide</button>
-
-                    <Swiper
-                        loop={true}
-                        spaceBetween={10}
-                        navigation
-                        // pagination={{ type: 'virtual' }}
-                        modules={[Navigation, Pagination]}
-                        onSwiper={() => console.log(swiper)}
-
-                    // onClick={console.log('first')}
-                    >
-
-
-                        {images.map((image, index) => (
-                            <SwiperSlide key={index}>
-                                <div className='flex h-full w-full items-center justify-center'>
-                                    <Image
-                                        width={400}
-                                        height={400}
-                                        src={image.src}
-                                        alt={image.alt}
-                                        className='block h-full w-full object-cover'
-                                    />
-                                </div>
-                            </SwiperSlide>
-                        ))}
-
-
-                    </Swiper>
-
-                </div>
-            </section> */}
-
-
-            <div className="container">
+            <div className={styles.container}>
                 <Swiper
                     effect={'coverflow'}
                     grabCursor={true}
                     centeredSlides={true}
                     loop={true}
-                    slidesPerView={2}
-                    // slidesPerGroup={2}
+                    slidesPerView={3}
+                
                     coverflowEffect={{
                         rotate: 0,
                         stretch: 0,
-                        depth: 100,
+                        // depth: 100,
                         modifier: 2.5,
                     }}
                     pagination={{ el: '.swiper-pagination', clickable: true }}
@@ -108,24 +68,35 @@ const SwipeProduct = () => {
                         <SwiperSlide key={index}>
                             <div>
                                 <Image
-                                    className='img_'
-
+                                    className={styles.img_}
                                     src={image.src}
                                     alt={image.alt}
-                                // className='block h-full w-full object-cover'
                                 />
                             </div>
                         </SwiperSlide>
                     ))}
 
                     <div className="slider-controler">
-                        <div className="swiper-button-prev slider-arrow">
-                            <button className="arrow-back-outline ion-icon">BACK</button>
+                        <div className="swiper-button-prev slider-arrow" style={{
+                            marginTop: "12.2rem", left: "40%", zIndex: 2000, color: "transparent"
+                        }}>
+                            <Button type={'third'} size={'small'} ><GrLinkPrevious style={{padding:"0.2rem", color: "rgb(100, 100, 100)", fontWeight:"bold"}}   size={'1.5rem'}/>
+                            </Button>
                         </div>
-                        <div className="swiper-button-next slider-arrow">
-                            <button className="arrow-forward-outline ion-icon">FORWARD</button>
+                        <div className="swiper-button-next slider-arrow" style={{
+                            color: 'transparent', marginTop: "12.2rem", right: "37%", zIndex: 2000
+                        }}>
+                            <Button type={'third'} size={'small'}  ><GrLinkNext   style={{padding:"0.2rem",color: "rgb(100, 100, 100)", }} /> </Button>
                         </div>
-                        <div className="swiper-pagination"></div>
+
+                        <div style={{
+                            color: 'transparent', marginTop: "4rem", 
+                        }}>
+
+                            <div className="swiper-pagination" style={{  position: "absolute", }}></div>
+
+                        </div>
+
                     </div>
                 </Swiper>
             </div >
