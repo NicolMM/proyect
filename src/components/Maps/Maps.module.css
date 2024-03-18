@@ -1,0 +1,20 @@
+.container{
+    margin: 3rem;
+}
+
+.mapSecction {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.iconLocation {
+    color: var(--primary1-100);
+    margin-right: 6px;
+    text-align: center;
+}
+.title{
+    font-size: 22px;
+    font-weight: 500;
+   
+}

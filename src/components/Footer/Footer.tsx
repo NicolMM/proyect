@@ -8,11 +8,15 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
     return (
         <>
-            <FaFacebook />
-            <FaInstagram />
-            <FaLinkedinIn />
 
-            <FaYoutube />
+            <div>
+
+                <FaFacebook />
+                <FaInstagram />
+                <FaLinkedinIn />
+                <FaYoutube />
+
+            </div>
 
 
         </>

@@ -47,7 +47,7 @@ const SwipeProduct = () => {
                     centeredSlides={true}
                     loop={true}
                     slidesPerView={3}
-                
+
                     coverflowEffect={{
                         rotate: 0,
                         stretch: 0,
@@ -80,20 +80,20 @@ const SwipeProduct = () => {
                         <div className="swiper-button-prev slider-arrow" style={{
                             marginTop: "12.2rem", left: "40%", zIndex: 2000, color: "transparent"
                         }}>
-                            <Button type={'third'} size={'small'} ><GrLinkPrevious style={{padding:"0.2rem", color: "rgb(100, 100, 100)", fontWeight:"bold"}}   size={'1.5rem'}/>
+                            <Button type={'third'} size={'small'} ><GrLinkPrevious style={{ padding: "0.2rem", color: "rgb(100, 100, 100)", fontWeight: "bold" }} size={'1.5rem'} />
                             </Button>
                         </div>
                         <div className="swiper-button-next slider-arrow" style={{
                             color: 'transparent', marginTop: "12.2rem", right: "37%", zIndex: 2000
                         }}>
-                            <Button type={'third'} size={'small'}  ><GrLinkNext   style={{padding:"0.2rem",color: "rgb(100, 100, 100)", }} /> </Button>
+                            <Button type={'third'} size={'small'}  ><GrLinkNext style={{ padding: "0.2rem", color: "rgb(100, 100, 100)", }} /> </Button>
                         </div>
 
                         <div style={{
-                            color: 'transparent', marginTop: "4rem", 
+                            color: 'transparent', marginTop: "4rem",
                         }}>
 
-                            <div className="swiper-pagination" style={{  position: "absolute", }}></div>
+                            <div className="swiper-pagination pagination" style={{ position: "absolute", }}></div>
 
                         </div>
 

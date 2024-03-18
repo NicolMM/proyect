@@ -19,6 +19,7 @@ export default function Home() {
       <Product />
       <Banner />
       <SliderTypes />
+      {/* <hr></hr> */}
       <GoogleMap />
       <Footer />
 
